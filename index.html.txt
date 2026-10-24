@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "deploy: ready for production"
+git branch -M main
+git remote add origin [رابط مستودعك]
+git push -u origin main
